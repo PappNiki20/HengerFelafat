@@ -1,13 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
-/**
- *
- * @author PappNikoletta(SZF_20
- */
-public class TomorHenger {
-    
+public class TomorHenger extends Henger{
+    private double fajsuly;
+
+    public TomorHenger(double fajsuly, double magassag, double sugar) {
+        super(magassag, sugar);
+        this.fajsuly = fajsuly;
+    }
+    public TomorHenger(double sugar, double magassag){
+        this(1.0,2,3);
+    }
+
+    public double getFajsuly() {
+        return fajsuly;
+    }
+   public double suly(){
+       double suly = 0;
+       return suly;
+   }
+
+    @Override
+    public String toString() {
+        return "TomorHenger{" + "fajsuly=" + fajsuly + '}';
+    }
+   
 }

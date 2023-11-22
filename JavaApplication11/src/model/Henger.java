@@ -1,13 +1,37 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
-/**
- *
- * @author PappNikoletta(SZF_20
- */
+
+
 public class Henger {
+   static private int hengerDarab;
+   private double magassag,sugar;
+
+    public Henger(double magassag, double sugar) {
+        this.magassag = magassag;
+        this.sugar = sugar;
+    }
+
+    public static int getHengerDarab() {
+        return hengerDarab;
+    }
+
+    public double getMagassag() {
+        return magassag;
+    }
+
+    public double getSugar() {
+        return sugar;
+    }
+ public double terfogat(){
+     double terfogat = 2;
+     return terfogat;
+ }
+    @Override
+    public String toString() {
+        return "Henger{" + "magassag=" + magassag + ", sugar=" + sugar + '}';
+    }
+    
+   
     
 }
