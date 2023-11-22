@@ -1,18 +1,31 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package HProgram;
 
-/**
- *
- * @author PappNikoletta(SZF_20
- */
+import java.util.List;
+
 public class HengerProgram {
 
-   
-    public static void main(String[] args) {
-      
+    private List hengerek;
+
+    public HengerProgram(List hengerek) {
+        this.hengerek = hengerek;
     }
     
-}
+     public static void main(String[] args) {
+         
+     }
+     
+     public double atlagTerfogat(){
+        double ertek = 1;
+        return ertek;
+    }
+     public double Csoveksulya(){
+        double csovek = 1;
+        return csovek;
+    }
+     private List lista(){
+    return null;
+     }
+     public void run(){
+     }
+    }
+
